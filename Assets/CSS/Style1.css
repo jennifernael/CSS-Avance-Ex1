@@ -1,0 +1,15 @@
+.header {
+    background-image: url("../IMG/header.jpg");
+    background-size: 100%;
+    height: 350px;
+}
+
+h1
+{
+    font-family: 'Chilanka', cursive;
+    font-size: 480%;
+    text-align: center;
+    padding: 150px 100px 25px 100px;
+}
+
+    
