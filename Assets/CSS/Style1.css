@@ -124,25 +124,22 @@ a {
     width: auto;
 }
 
-@media all and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 header {
     width: 100%;
 }    
-nav {
-    flex-direction: column;
-    justify-content: center;
+ul {
     align-items: center;
-    width: auto;
+    flex-flow: row wrap;
+    padding-left: 0;
 }
 .presentation {
-    width: auto;
-    font-size: 1.2em;
+    flex-shrink: auto;
 }
 #containerP {
-    width: auto;
-    font-size: 1em;
+    flex-flow: row wrap;
 }
 .containerE1, .containerE2, .containerE3, .containerPE1, .containerPE2, .containerPE3 {
-    width: auto;
+    display: block;
 }
 }
