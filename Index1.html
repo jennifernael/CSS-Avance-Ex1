@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/CSS/Style1.css">
+    <!-- Pour ceux qui ont une résolution inférieure à 480px <link rel="stylesheet" media="all and (max-width: 480px)" href="petite_resolution.css" /> -->
+
     <title>Voyage & Co</title>
 </head>
 
@@ -22,10 +24,11 @@
                 <li class="bouton3"><a href="#">Réservation</a></li>
                 <li class="bouton4"><a href="#">Contact</a></li>
                 
-                <li class="boutonRecherche">
+                <li>
                     <form action="#" method="GET">
-                    <input type="search" name="Search" id="Search" value="Search" placeholder="Search" />
-                    <a href="#"><button type="submit">Search</button></a></form>
+                    <label for="search"></label>
+                    <input type="search" name="search" id="search" placeholder="Rechercher" />
+                    <input type="button" value="search" ></form>
                 </li>     
             </ul>
         </nav>
@@ -41,7 +44,57 @@
             l’animent. Ouverte à tous les passionnés, elle devient lieu de rencontres et d’expression lors de soirées discussion avec des intervenants 
             rigoureusement sélectionnés. N’hésitez pas à vous renseigner.
         </p> 
-    </div> 
+    </div>
+
+    <div id="containerP">
+
+        <div class="containerE1">
+            <div class="containerPE1">
+                <p>
+                    <img src="../Exercice 1/Assets/IMG/Montagne.jpg" alt="À la montagne">
+                </p>
+            </div>
+            <div>
+                <h2>Détendez-vous à la montagne</h2>
+                <p>
+                    Quoi de mieux que l’air vivifiant des sommets pour enfin lâcher prise le temps d’une 
+                    séance de spa en montagne, ou d’une tout autre activité placée sous le signe de la détente ?
+                </p>
+            </div>
+        </div>
+
+        <div class="containerE2">
+            <div class="containerPE2">
+                <p>
+                    <img src="../Exercice 1/Assets/IMG/Tropiques.jpg" alt="Sous les Tropiques">
+                </p>
+            </div>
+            <div>
+                <h2>Partez sous le soleil des Tropiques</h2>
+                <p>
+                    Qui ne rêve pas de vacances au soleil ? Plages paradisiaques en janvier, bains turquoise pendant 
+                    les vacances de la Toussaint ou sable chaud à Noël : Voyage & Co vous a sélectionné leurs meilleures 
+                    destinations. N'attendez plus !
+                </p>
+            </div>
+        </div>    
+
+        <div class="containerE3">
+            <div class="containerPE3">
+                <p>
+                    <img id="image3" src="../Exercice 1/Assets/IMG/France.jpg" alt="En France">
+                </p>
+            </div>
+            <div>
+                <h2>Profitez des paysages de France</h2>
+                <p>
+                    Vous recherchez les meilleures destinations de vacances en France ? Laissez-vous vous surprendre avec notre
+                    sélection d'endroits et de paysages d'exceptions, à voir au sein de l'hexagone !
+                </p>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 </html>

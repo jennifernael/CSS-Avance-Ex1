@@ -6,7 +6,7 @@ header {
     width: 100%;
     background-image: url("../IMG/header.jpg");
     background-size: cover;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 h1 {
@@ -15,43 +15,36 @@ h1 {
 
 ul {
     display: flex;
-    flex-direction: row;
     list-style-type: none;  
     justify-content: space-evenly;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 100%;
-    height: 50px;
+    font-weight: bold;
+    height: 60px;
     background: rgb(184, 229, 243);
-
  }
 .bouton1 {
+    padding: 1px;
+    border-radius: 12px;
     background-color: rgb(243, 222, 102);
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .bouton2 {
-    background-color: rgb(207, 124, 76);
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    padding: 1px;
+    border-radius: 12px;
+    background-color: rgb(207, 124, 76); 
 }
 
 .bouton3 {
+    padding: 1px;
+    border-radius: 12px;
     background-color: rgb(230, 212, 59);
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .bouton4 {
+    padding: 1px;
+    border-radius: 12px;
     background-color: rgb(36, 127, 163);
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.boutonRecherche {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 a {
@@ -63,14 +56,93 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     background-color: rgb(241, 200, 146);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
 }
 
+#containerP {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
 
+.containerE1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;4
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+    width: 100%;
+}
 
+.containerPE1 {
+    background-repeat: no-repeat; 
+}
+
+.containerE2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.containerPE2 {
+    background-repeat: no-repeat; 
+}
+
+.containerE3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+.containerPE3 {
+    background-repeat: no-repeat;
+}
+
+#image3 {
+    padding-top: 30px;
+    height: 240px;
+    width: auto;
+}
+
+@media all and (max-width: 480px) {
+header {
+    width: 100%;
+}    
+nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.presentation {
+    width: auto;
+    font-size: 1.2em;
+}
+#containerP {
+    width: auto;
+    font-size: 1em;
+}
+.containerE1, .containerE2, .containerE3, .containerPE1, .containerPE2, .containerPE3 {
+    width: auto;
+}
+}
